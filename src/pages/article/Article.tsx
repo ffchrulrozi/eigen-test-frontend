@@ -66,7 +66,11 @@ const Article = () => {
         </div>
 
         <div className="col-md-4">
-          <News />
+          <News
+            config={config}
+            setConfig={e=>setConfig(e)}
+            setArticleDetail={e=>setArticleDetail(e)}
+          />
         </div>
       </div>
     </div>

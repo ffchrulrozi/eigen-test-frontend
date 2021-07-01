@@ -6,9 +6,9 @@ import { toDate, toShortText } from "../../config/convert"
 interface IProps {
   articles: any,
   articleParam: any,
+  config: any,
   setArticleParam: (e:any) => void,
   setArticleDetail: (e:any) => void,
-  config: (e:any) => void,
   setConfig: (e:any) => void
 }
 
